@@ -18,6 +18,8 @@
     结果：2019-07
 ### 一个月有几天
       $days = date("t", $day_time); 
- 
- 
+      
+### 前七天
+$seven_d=7;
+$sevenday = date('Ymd', strtotime('-'.$seven_d.' days')); //前七天 
  
