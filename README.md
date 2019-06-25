@@ -21,5 +21,5 @@
       
 ### 前七天
 $seven_d=7;
-$sevenday = date('Ymd', strtotime('-'.$seven_d.' days')); //前七天 
+$sevenday = date('Ymd', strtotime('-'.$seven_d.' day')); //前七天 
  
